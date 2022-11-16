@@ -6,6 +6,7 @@ import sys
 
 def main():
     """Run administrative tasks."""
+    import pdb; pdb.set_trace()
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'levelup.settings')
     try:
         from django.core.management import execute_from_command_line
